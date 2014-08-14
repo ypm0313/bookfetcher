@@ -1,7 +1,7 @@
 bookfetcher
 ===========
-项目主页：bookfetcher.sinaapp.com <a href="http://bookfetcher.sinaapp.com">点击进入</a>
-DEMO：<a href="http://bookfetcher.sinaapp.com/Demo/index">点击进入</a>
+<p>项目主页：bookfetcher.sinaapp.com <a href="http://bookfetcher.sinaapp.com">点击进入</a></p>
+<p>DEMO：<a href="http://bookfetcher.sinaapp.com/Demo/index">点击进入</a></p>
 <p>BookFetcher是一个实现各大主流网上书店图书数据抓取的类库，能根据搜索关键字返回各大网上书店的搜索列表数据，或根据图书的ISBN码精确抓取图书的详细数据。</p>
 <p>基于BookFetcher我们对外开放了公共API，您只需要访问我们的Open API 便可快速获得图书数据，数据在初次采集时会保存在我们的服务器，避免重复采集。</p>
 <p>目前支持的目标站点有：</p>
@@ -48,7 +48,8 @@ DEMO：<a href="http://bookfetcher.sinaapp.com/Demo/index">点击进入</a>
 ├── Amazon.class.php // 亚马逊数据采集类
 ├── Bookuu.class.php // 博库网数据采集类
 ├── DangDang.class.php // 当当网数据采集类
-└── Jd.class.php // 京东图书数据采集类</pre>
+└── Jd.class.php // 京东图书数据采集类
+</pre>
            <p>关键字搜索：</p>
            <pre class="prettyprint linenums">//实例化亚马逊数据采集类，并搜索关键字“计算机网络”，将返回的结果输出
 require_once("./BookFetcher/Amazon.class.php");
