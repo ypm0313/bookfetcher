@@ -41,14 +41,14 @@ DEMO：<a href="http://bookfetcher.sinaapp.com/Demo/index">点击进入</a>
             <p>
               BookFetcher目前只有PHP版本，您只需<a href="http://bookfetcher.sinaapp.com/Index/download">[下载]</a>并导入BookFetcher类库，实例化相应BookFetcher类，然后调用API即可。
             </p>
-            <p>代码包目录结构如下：</p>
-<pre class="prettyprint"><code class="bash">BookFetcher/
+            <p>代码包(for php)目录结构如下：</p>
+<pre class="prettyprint">BookFetcher/
 ├── BookFetcher.class.php // BookFetcher基类
 ├── Snoopy.class.php // 基于socket的php数据采集类，感谢原作者
 ├── Amazon.class.php // 亚马逊数据采集类
 ├── Bookuu.class.php // 博库网数据采集类
 ├── DangDang.class.php // 当当网数据采集类
-└── Jd.class.php // 京东图书数据采集类</code></pre>
+└── Jd.class.php // 京东图书数据采集类</pre>
            <p>关键字搜索：</p>
            <pre class="prettyprint linenums">//实例化亚马逊数据采集类，并搜索关键字“计算机网络”，将返回的结果输出
 require_once("./BookFetcher/Amazon.class.php");
