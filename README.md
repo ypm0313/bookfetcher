@@ -1,7 +1,7 @@
 bookfetcher
 ===========
 项目主页：bookfetcher.sinaapp.com <a href="http://bookfetcher.sinaapp.com">点击进入</a>
-DEMO：<a href="http://bookfetcher.sinaapp.com/Demo">点击进入</a>
+DEMO：<a href="http://bookfetcher.sinaapp.com/Demo/index">点击进入</a>
 <p>BookFetcher是一个实现各大主流网上书店图书数据抓取的类库，能根据搜索关键字返回各大网上书店的搜索列表数据，或根据图书的ISBN码精确抓取图书的详细数据。</p>
 <p>基于BookFetcher我们对外开放了公共API，您只需要访问我们的Open API 便可快速获得图书数据，数据在初次采集时会保存在我们的服务器，避免重复采集。</p>
 <p>目前支持的目标站点有：</p>
@@ -15,7 +15,7 @@ DEMO：<a href="http://bookfetcher.sinaapp.com/Demo">点击进入</a>
 <h2 >有什么用？</h2>
 <ol>
   <li>获取任意一本书的详细信息，海量图书数据采集</li>
-  <li>快速开发一个图书比价应用 <a href="<{:U('Demo/index')}>">[DEMO]</a></li>
+  <li>快速开发一个图书比价应用 <a href="http://bookfetcher.sinaapp.com/Demo/index">[DEMO]</a></li>
   <li><del>轻松搞定某高校CS专业“B/S体系软件设计”课程设计</del></li>
 </ol>
  <h2 >如何使用？</h2>
@@ -36,10 +36,10 @@ DEMO：<a href="http://bookfetcher.sinaapp.com/Demo">点击进入</a>
               <dt>getError：</dt>
               <dd>返回最近一条错误信息</dd>
             </dl>
-            <p>详细内容请查看<a href="<{:U('Index/document')}>">[API手册]</a></p>
+            <p>详细内容请查看<a href="http://bookfetcher.sinaapp.com/Index/document">[API手册]</a></p>
             <h3>1.使用BookFetcher类库</h3>
             <p>
-              BookFetcher目前只有PHP版本，您只需<a href="<{:U('Index/download')}>">[下载]</a>并导入BookFetcher类库，实例化相应BookFetcher类，然后调用API即可。
+              BookFetcher目前只有PHP版本，您只需<a href="http://bookfetcher.sinaapp.com/Index/download">[下载]</a>并导入BookFetcher类库，实例化相应BookFetcher类，然后调用API即可。
             </p>
             <p>代码包目录结构如下：</p>
 <pre class="prettyprint"><code class="bash">BookFetcher/
@@ -93,8 +93,8 @@ if($detail)
 else
   echo $bf->getError();</pre>
           <h4>2.直接访问BookFetcher Open API:</h4>
-          <p>BookFetcher目前只有php版本，对于使用其它编程语言的应用，在我们开发出其相应版本之前，可以通过访问BookFetcher Open API抓取数据。Open API 的地址和参数请移步至 <a href="<{:U('Api/index')}>">[Open API]</a></p>
+          <p>BookFetcher目前只有php版本，对于使用其它编程语言的应用，在我们开发出其相应版本之前，可以通过访问BookFetcher Open API抓取数据。Open API 的地址和参数请移步至 <a href="http://bookfetcher.sinaapp.com/Api">[Open API]</a></p>
           <hr>
           <h2 >为什么只做 book?</h2>
             <p>每一本书都有一个唯一的ISBN码，这使得图书数据的采集变得可行和有意义。</p>
-          </div><!-- /.blog-post -->
+          </div>
