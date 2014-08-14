@@ -42,7 +42,7 @@ bookfetcher
               BookFetcher目前只有PHP版本，您只需<a href="http://bookfetcher.sinaapp.com/Index/download">[下载]</a>并导入BookFetcher类库，实例化相应BookFetcher类，然后调用API即可。
             </p>
             <p>代码包(for php)目录结构如下：</p>
-<pre class="prettyprint">BookFetcher/
+            <pre class="prettyprint">BookFetcher/
 ├── BookFetcher.class.php // BookFetcher基类
 ├── Snoopy.class.php // 基于socket的php数据采集类，感谢原作者
 ├── Amazon.class.php // 亚马逊数据采集类
@@ -98,4 +98,3 @@ else
           <hr>
           <h2 >为什么只做 book?</h2>
             <p>每一本书都有一个唯一的ISBN码，这使得图书数据的采集变得可行和有意义。</p>
-          </div>
