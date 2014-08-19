@@ -80,7 +80,7 @@ class Bookuu extends BookFetcher{
      */
     public function detailFetch($id){
     	if($this->open_api){//访问BookFetcher Open API 获取数据
-    		return $this->_APIRequest('http://bookfetcher.sinaapp.com/Api/detailFetch',array('site'=>'amazon','id'=>$id));
+    		return $this->_APIRequest('http://bookfetcher.sinaapp.com/Api/detailFetch',array('site'=>'bookuu','id'=>$id));
     	}
     	$url=$this->getUrl($id);
     	$data=$this->_fetch($url);
